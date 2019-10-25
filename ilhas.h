@@ -1,5 +1,5 @@
-#ifndef _ILHAS_HPP_
-#define _ILHAS_HPP_
+#ifndef _ILHAS_H_
+#define _ILHAS_H_
 
 #include <bits/stdc++.h>
 
