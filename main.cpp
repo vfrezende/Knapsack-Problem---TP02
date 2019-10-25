@@ -1,4 +1,4 @@
-#include "ilhas.hpp"
+#include "ilhas.h"
 
 int main(int argc, char const *argv[]){
     char const* const file = argv[1];
