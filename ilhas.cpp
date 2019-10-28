@@ -38,7 +38,7 @@ void backtraking_dias(int n_ilhas, int valor_disp, std::vector<std::vector<int>>
     int n_dias = 0;
     while(n_ilhas > 0 && valor_disp >= 0){
         if (mat[n_ilhas][valor_disp] != mat[n_ilhas-1][valor_disp]){
-            valor_disp -= val_pd[n_ilhas];
+            valor_disp -= val_pd[n_ilhas-1];
             n_dias++;
         }
         n_ilhas--; 
